@@ -5,6 +5,7 @@ CREATE TABLE "Notification" (
     "content" TEXT NOT NULL,
     "category" TEXT NOT NULL,
     "readAt" DATETIME,
+    "canceledAt" DATETIME NOT NULL,
     "createdAt" DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP
 );
 
